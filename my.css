@@ -1,0 +1,136 @@
+html{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	
+}
+.my-nav{
+	padding: 30px;
+}
+.nav-link{
+	color: white!important;
+	text-align: center;
+	font-weight: 400;
+
+
+}
+.bg-top{
+	margin: 0;
+	padding: 0;
+	background-image: linear-gradient(135deg, rgb(57, 71, 99) 50%, rgb(241, 102, 94) 100%);
+	background-repeat:no-repeat;
+	background-size: cover;
+	
+}
+.baner-top{
+	min-height: 100vh;
+	padding-top: 150px;
+	
+	}
+.space-bt{
+	min-height: 25vh;
+}
+.h1-top{
+	color: white;
+	font-weight: 800;
+	font-family: sans-serif;
+	font-size: 4rem;
+
+}
+.bg-bot{
+	background-color:rgb(57, 71, 99);
+}
+
+.carousel-text{
+color: white;
+font-family: sans-serif;
+padding: 1.5rem;
+}
+.space{
+	min-width: 1px;
+}
+.realizacje{
+color: white;
+font-weight: 600;
+text-align: right;
+font-family: sans-serif;
+text-decoration:underline;
+font-size: 3rem;
+}
+
+.link{
+	color: black;
+	
+
+}
+.link:hover{
+	color:black;
+	text-decoration: none;
+	
+
+}
+.deco-under{
+	text-decoration: underline;
+}
+
+
+.underline{
+	display: inline-block;
+}
+
+.underline::after{
+	content: '';
+	width: 0px;
+	height: 2px;
+	display: block;
+	background-color: black;
+	transition: 500ms;
+}
+
+.underline:hover::after{
+	width: 100%
+}
+
+.trust-holder{
+	padding: 0px!important;
+	margin-right: auto; 
+}
+
+.footer-h{
+	font-weight: 700;
+	color: white;
+}
+
+.link-footer{
+	color: white;
+	line-height: 1.5;
+	font-size: 1.5rem;
+	font-weight: 600;
+
+}
+
+.link-footer:hover{
+	color: white;
+	text-decoration: none;
+}
+.underline-footer{
+	display: inline-block;
+}
+
+.underline-footer::after{
+	content: '';
+	width: 0px;
+	height: 1px;
+	display: block;
+	background-color: white;
+	transition: 500ms;
+}
+
+.underline-footer:hover::after{
+	width: 100%
+
+}
